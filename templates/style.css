@@ -1,0 +1,175 @@
+.bg {
+	background-position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover；
+	background-position: center;
+}	
+
+.bg img{
+	width: 100%;
+	height: 100%;
+}	
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(143, 193, 227, 0.15);
+}
+
+li {
+    float: left;
+    font-family: 'Georgia';
+    font-size: 15px;
+}
+
+li a {
+    display: inline-block;
+    color: #687864;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: rgba(143, 193, 227, 0.35);
+}
+
+/* Main */
+
+.welcome {
+	background-color: #C4D8E2;
+	text-align: center;
+	width: 1000px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(247, 249, 251, 0.7);
+}
+
+.play {
+	text-align: center;
+	width: 100px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	/*background: rgba(247, 249, 251, 0.7);*/
+	font-family:'TrajanPro';
+	font-size: 25px;
+	letter-spacing: 2px;
+
+}
+
+h1 {
+	font-family: 'TrajanPro';
+	font-size: 35px;
+	font-weight: 1200;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #002B7F;
+}
+
+.container {
+ 	margin: 0 auto;
+ 	max-width: 800px; 
+ 	padding: 0 10px;
+ 	margin-bottom: 50px;
+}
+
+.container h2 {
+	font-family: 'Georgia';
+ 	color: #687864;
+ 	line-height: 100px; 
+ 	font-size: 30px;
+ 	margin-top: 100px;
+ 	margin-bottom: 80px;
+ 	text-transform: uppercase; 
+ 	letter-spacing: 0.09em;
+}
+
+.container p {
+	font-family: 'Garamond';
+ 	color: #000000;
+ 	font-weight: 100;
+ 	letter-spacing: 1px;
+ 	margin-bottom: 120px;
+ 	margin-top: 0px; 
+ 	line-height: 200%;
+}
+
+.team {
+ 	margin: 0 auto;
+ 	max-width: 800px; 
+ 	padding: 0 10px;
+ 	margin-bottom: 50px;
+ 	font-family: 'Garamond';
+}
+
+#imagesMain{
+  display: flex;
+  justify-content: center;
+}
+#imagesMain img{
+  height: 30px;
+  width: 250px;
+  margin: 0 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Play */
+.logo {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+.logo img {
+	width: 320px;
+	height: 50px;
+}
+
+.container2 {
+ 	margin: 30px;
+ 	max-width: 1000px; 
+ 	padding: 0 10px;
+ 	margin-bottom: 0px;
+ 	position: absolute;
+}
+
+.container2 h2 {
+	font-family: 'Georgia';
+ 	color: #687864;
+ 	line-height: 100px; 
+ 	font-size: 30px;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	text-transform: uppercase; 
+ 	letter-spacing: 0.09em;
+}
+
+.container2 p {
+	font-family: 'Garamond';
+ 	color: #000000;
+ 	font-weight: 100;
+ 	letter-spacing: 1px;
+ 	margin-bottom: 120px;
+ 	margin-top: 0px; 
+ 	line-height: 200%;
+}
+
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('fonts/trajanpro/trajanpro-regular-webfont.eot');
+    src: url('fonts/trajanpro/trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/trajanpro/trajanpro-regular-webfont.woff') format('woff'),
+         url('fonts/trajanpro/trajanpro-regular-webfont.ttf') format('truetype'),
+         url('fonts/trajanpro/trajanpro-regular-webfont.svg#trajan_proregular') format('svg');
+    font-weight: normal bold;
+    font-style: normal;
+
+}

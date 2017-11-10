@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	body {background-color: rgba(143, 193, 227, 0.02);}
+</style>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+<body>
+
+<div class=hide>
+<p id="1">{% for n in data1 %} {{n}} <br> {% endfor %}</p>
+<p id="2">{% for n in data2 %} {{n}} <br> {% endfor %}</p>
+<p id="3">{% for n in data3 %} {{n}} <br> {% endfor %}</p>
+</div>
+
+
+<div class="container">
+	<h2> Some Intersting SQL Queries: <br></h2>
+	<p>
+	Some interesting SQL queries:<br><br>
+	1. Among students who have working experience, which major has the highest job rate?
+	<button onclick="myFunction1()">Result</button></p>
+	<p id="demo1"></p>
+	<p>2. Find names of alumni (graduated students) that have found jobs and show their GPA.
+	<button onclick="myFunction2()">Result</button></p>
+	<p id="demo2"></p>
+	<p>3. Who are the top 5 popular professors based on the enrollment rate of all his/her teaching courses?
+	<button onclick="myFunction3()">Result</button></p>
+	<p id="demo3"></p>
+	
+
+	<script>
+	function myFunction1() {
+    	var x = document.getElementById("1").innerHTML
+    	document.getElementById("demo1").innerHTML = x;
+	}
+	function myFunction2() {
+    	var x = document.getElementById("2").innerHTML
+    	document.getElementById("demo2").innerHTML = x;
+	}
+	function myFunction3() {
+    	var x = document.getElementById("3").innerHTML
+    	document.getElementById("demo3").innerHTML = x;
+	}
+	</script>
+
+</div>
+</body>
+
+</html>
