@@ -3,9 +3,12 @@
 ### PostgreSQL
 Database account number: lz2499
 
+Team members
+UNI: lz2499 
+UNI: hm2690
 
 ### Website: Columbia University Database System
-URL:
+URL: http://35.196.180.150:8111
 
 ### Descriptions
 The “Columbia University Database System” is designed to keep track of the information of the 
@@ -15,5 +18,6 @@ Users will be able to identify entities such as School, Staff, Student, Departme
 as well as the relationships among entities. 
 Users will also be able to select from some drop down menus to generate queries. 
 
-### Part 4
-(briefly describe two of the web pages that require the most interesting database operation in term of what the pages are used for, how the page is related to the database operations (e.g., inputs on the page are used in such and such way to produce database operations that do such and such), and why you think they are interesting.)
+-- Something we have not accomplished: Dropdown menu to generate queries
+
+We think all of our two webpages that are very interesting because one contains all the information about the dataset, and the other one will simply need use to click the button in order to run the database operations. It's user friendly and the interfaces look very pretty too.
